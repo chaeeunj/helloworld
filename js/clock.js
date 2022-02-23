@@ -2,7 +2,7 @@ const colck = document.querySelector("#clock");
 
 function getClock() {
   const date = new Date();
-  console.log(`${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`)
+  colck.innerText = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`
 }
 
 getClock();
